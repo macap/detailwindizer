@@ -97,3 +97,10 @@ pre code {
     position: relative;
     padding: 1.25rem 2.5rem 1.25rem 1.5rem;
 }
+
+.github {
+    display: block;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
