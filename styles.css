@@ -1,0 +1,11 @@
+.fancy-class {
+    @apply px-4 py-2 bg-blue-600 text-white rounded xl:mt-10;
+}
+
+:root {
+    --color: red;
+  }
+  
+  h1 {
+    color: var(--color);
+  }
