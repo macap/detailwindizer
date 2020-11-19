@@ -18,7 +18,11 @@ var haikunator = new Haikunator({
 
 const app = express();
 app.use(bodyParser.json());
-const port = 3000;
+
+let port = process.env.PORT;
+if (port == null || port == "") {
+  port = 8000;
+}
 
 
 const config = {
