@@ -48,7 +48,7 @@ function parse(html = '') {
         let css = ``;
         let resulthtml = html;
 
-        uniqueClasses.forEach(twclass => {
+        uniqueClasses.sort((a, b) => b.length - a.length).forEach(twclass => {
             const name = classmap[twclass];
             css += `
               .${name} {
