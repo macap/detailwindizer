@@ -1,0 +1,99 @@
+body {
+    font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    background:white;
+    -webkit-font-smoothing: antialiased;
+}
+
+[v-cloak] { display: none; }
+
+* {
+    box-sizing: border-box;
+}
+
+pre code {
+    max-height: 32vh;
+    overflow: scroll;
+}
+
+.button {
+    background-color: #f5f5f5;
+    border-color: transparent;
+    color: rgba(0,0,0,.7);
+    padding: 10px 15px;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+.button--primary {
+    background-color: #00d1b2;
+    border-color: transparent;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.layout__head {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.layout__main {
+    display: flex;
+}
+
+.layout__column {
+    width: 50%;
+    padding: 20px;
+}
+
+.layout__footer {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.editor {
+    display: block;
+    width: 100%;
+    min-height: 56vh;
+    background: #282a36;
+    color: #f8f8f2;
+}
+
+.overlay {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0,0,0,0.7);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.loader {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.modal {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.error__title {
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: #f14668;
+    color: #fff;
+    border-radius: 4px;
+    position: relative;
+    padding: 1.25rem 2.5rem 1.25rem 1.5rem;
+}
