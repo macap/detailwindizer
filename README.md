@@ -1,6 +1,6 @@
 # Detailwindizer
 
-[See it in action](https://detailwindizer.herokuapp.com/)
+[See it in action](https://macap.github.io/detailwindizer/)
 
 <img src="https://github.com/macap/detailwindizer/blob/master/docs/screenshot.png?raw=true" alt="Browser view" />
 
