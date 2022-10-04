@@ -2,7 +2,7 @@
 
 [See it in action](https://detailwindizer.herokuapp.com/)
 
-<img src="https://github.com/macap/detailwindizer/blob/master/public/screenshot.png?raw=true" alt="Browser view" />
+<img src="https://github.com/macap/detailwindizer/blob/master/docs/screenshot.png?raw=true" alt="Browser view" />
 
 **DEtailwindizer - Remove tailwind css from your code**
 DEtailwindizer is an essential tool for every project which uses tailwind css. DEtailwindizer will convert ridiculous inline tailwind styles into proper css named elements. Just get rid of this nightmare!
